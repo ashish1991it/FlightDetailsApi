@@ -1,0 +1,127 @@
+.card{
+	padding: 2em;
+}
+
+.row{
+	margin: 1em 2em;
+}
+
+.col-6{
+	margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input, select{
+	height: 45px;
+	/*text-align: center;*/
+	margin-left: 15px;
+	width: 500px;
+	min-width: 100px;
+}
+label{
+	/*margin-bottom: 10px;*/
+	color: #fff;
+	font-size: 16px;
+	width: 300px;
+	margin: 0;
+	min-width: 100px;
+}
+
+.aodb_field{
+	width: 78%;
+    min-width: 210px;
+    background: #fff;
+    border-radius: 6px;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.collapsibleBtn{
+	height: 45px;
+    width: 100%;
+    background: #fff;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+.collapsibleBtn:hover {
+    height: 45px;
+    width: 100%;
+    background: #fff;
+    color: black;
+    text-align: left;
+}
+
+.card-body{
+	background: #fff;
+}
+
+.header-col{
+	display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.field_check{
+	width: 100px;
+	margin-left: 0;
+}
+
+.aodb_col, .integrated_col{
+	align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+
+.aodb_col input{
+	    margin-left: 0;
+	    text-align: center;   
+	    background: #eee;
+    	border: none;
+}
+
+.integrated_col input{
+	    margin-left: 0;
+	    text-align: center;
+}
+
+.arrow{
+	width: 200px;
+	display: flex;
+}
+
+.line{
+	width: 100%;
+    height: 7px;
+    border-bottom: 2px solid black;
+    margin: 0;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-left: -11px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+.submitBtn{
+	text-align: center;
+}
+
+.submitBtn button{
+    background: #132546;
+    border-color: #132546;
+    width: 100px;
+}

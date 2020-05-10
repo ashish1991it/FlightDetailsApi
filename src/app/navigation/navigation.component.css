@@ -1,0 +1,28 @@
+.glyphicon,i{
+	    padding: 7px 3px 8px 3px;
+}
+.fa-home{
+	    font-size: 21px;
+	    margin-right: -1px;
+}
+.fa-plane{
+	    font-size: 22px;
+    	margin-right: 3px;
+}
+.fa-clock-o{
+	    font-size: 22px;
+    	margin-right: 2px;
+}
+.fa-user{
+	    font-size: 24px;
+    	margin-right: 3px;
+}
+.fa-server{
+	    font-size: 18px;
+    	margin-right: 3px;
+}
+.fa-sign-out{
+	    font-size: 22px;
+    	margin-right: 2px;
+}
+

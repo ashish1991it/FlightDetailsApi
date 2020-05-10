@@ -1,0 +1,57 @@
+<div class="card">
+	   <!-- <div class="row"> -->
+                    <!-- <div class="col-lg-8 col-lg-offset-2" *ngFor="let app of appData"> -->
+	<div class="row">
+		<div class="total_consumer">
+			<div class="text-center">TOTAL CONSUMERS</div>
+			<div class="text-center">405</div>
+		</div>
+		<div class="total_api">
+			<div class="text-center">TOTAL API CALLS TODAY</div>
+			<div class="text-center">200</div>
+		</div>
+		<div class="total_bad_api">
+			<div class="text-center">TOTAL API BAD CALLS</div>
+			<div class="text-center">100</div>
+		</div>
+	</div>
+
+	<div class="api-usage row">
+		<div class="api_use_text">API USAGE</div>
+		<div class="api_use_type">
+			<!-- <div class="col-6"> -->
+					    	<!-- <label for="terminal">API USE</label> -->
+					    	 <select class="form-control" [(ngModel)]="graph">
+					    		<option>SELECT GRAPH</option>
+					    		<option value="api">API WISE</option>
+					    		<option value="consumer">CONSUMER WISE</option>
+					    	</select>
+			<!-- </div> -->
+
+		</div>
+	</div>
+	<div class="apiwise-graph" *ngIf="graph=='api'">
+		<google-chart #chart
+		   [title]="title"
+		   [type]="type"
+		   [data]="data"
+		   [options]="options"
+		   [width]="width"
+		   [height]="height">
+		</google-chart>
+	</div>
+
+
+	<div class="consumerwise-graph" *ngIf="graph=='consumer'">
+		<google-chart #chart1
+		   [title]="title1"
+		   [type]="type1"
+		   [data]="data1"
+		   [options]="options1"
+		   [width]="width1"
+		   [height]="height1">
+		</google-chart>
+	</div>
+
+
+</div>

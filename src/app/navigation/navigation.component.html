@@ -1,0 +1,55 @@
+  <div  class="wrapper">
+    <nav id="sidebar">
+
+            	<div class="logo"></div>
+            	<div class="user">{{userDetails.givenname}} {{userDetails.surname}}</div>
+                <ul class="sidebar-nav">
+                    <li (click)="dashboard()"> 
+                    	<i class="fa fa-home" aria-hidden="true"></i><a>API DASHBOARD</a> 
+                    </li>
+                    <li (click)="manageApiConsumer()"> 
+                    	<i class="fa fa-users" aria-hidden="true"></i><a>MANAGE API CONSUMERS</a> 
+                    </li>
+                    <li (click)="configApiData()"> 
+                    	<i class="fa fa-cogs" aria-hidden="true"></i><a>CONFIG API DATA</a> 
+                    </li>
+                    <li (click)="configAodbData()"> 
+                    	<i class="fa fa-plane" aria-hidden="true"></i><a>CONFIG AODB DATA</a> 
+                    </li> 
+                    <li (click)="scheduleApiProfile()"> 
+                    	<i class="fa fa-clock-o" aria-hidden="true"></i><a>SCHEDULE API PROFILE</a> 
+                    </li>
+                    <li (click)="registerApiConsumer()"> 
+                    	<i class="fa fa-user" aria-hidden="true"></i><a>REGISTER API CONSUMER</a> 
+                    </li>
+                    <li (click)="manageFtpServer()">
+                    	<i class="fa fa-server" aria-hidden="true"></i> <a>MANAGE FTP SERVER</a> 
+                    </li>
+                    <li (click)="logout()">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i> <a>LOGOUT</a> 
+                	</li>
+                </ul>
+    </nav>
+
+    <div id="content">
+      	<nav class="">
+	        <div class="container">
+	          	<div id="header" class="navbar-header header">
+					<div class="circle" id="sidebarCollapse">
+						<a class="navbar-brand" id="menu-toggle"> 
+							<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+						</a>
+					</div>
+					<div class="title">{{title}}</div>
+					<div class="date">{{date}}</div>
+			 	</div>
+
+	          	<div id="page-content-wrapper">
+	                <router-outlet>
+					</router-outlet>
+	            </div> 
+	        </div>
+      	</nav>
+    </div>
+
+  </div>

@@ -1,0 +1,16 @@
+{
+    "status" : 1,
+    "message" : "User added successfully",
+    "application" : {
+            "id" : 100,
+            "givenname" : "Alok",
+            "surname" : "Kumar",
+            "email" : "alok.kumar@waisl.in",
+            "mobile" : "8384023885",
+            "username" : "cnlt4367",
+            "company" : "DIAL",
+            "role" : "Contractor",
+            "is_admin" : "0",
+            "status" : "ACTIVE"
+    }
+}

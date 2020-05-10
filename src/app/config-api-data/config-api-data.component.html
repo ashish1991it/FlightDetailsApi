@@ -1,0 +1,90 @@
+<div class="card">
+	  	
+	  	<div class="row">
+
+				    <div class="col-6">
+				    	<label for="userid">API CONSUMER PROFILE</label>
+				    	<input type="text" class="form-control" id="userid" placeholder="API CONSUMER PROFILE">
+				    </div>
+				    
+				    <div class="col-6">
+					    <label for="server_ip">API DATA FORMAT</label>
+					    <div class="format">
+						    	<button (click)="changeFormat(0)" id="json" class="json">JSON</button>
+						    	<button (click)="changeFormat(1)" id="xml" class="xml">XML</button>
+						    	<button (click)="changeFormat(2)" id="csv" class="csv">CSV</button>
+						    </div>
+				  	</div>
+
+				    	<div class="col-6">
+					    	<label for="api_key">API SERVICE TYPE </label>
+					    	 <select class="form-control">
+					    		<option>Select</option>
+					    		<option>TEST1</option>
+					    		<option>TEST2</option>
+					    		<option>TEST3</option>
+					    		<option>TEST4</option>
+					    		<option>TEST5</option>
+					    	</select>
+					    </div>
+				    
+					    <div class="col-6">
+					    	<label for="expiry_date">AIRPORT</label>
+					    	 <select class="form-control">
+					    		<option>Select</option>
+					    		<option>TEST1</option>
+					    		<option>TEST2</option>
+					    		<option>TEST3</option>
+					    		<option>TEST4</option>
+					    		<option>TEST5</option>
+					    	</select>
+					    </div>
+
+				    	<div class="col-6">
+					    	<label for="terminal">TERMINAL</label>
+					    	 <select class="form-control">
+					    		<option>Select</option>
+					    		<option>TEST1</option>
+					    		<option>TEST2</option>
+					    		<option>TEST3</option>
+					    		<option>TEST4</option>
+					    		<option>TEST5</option>
+					    	</select>
+					    </div>
+
+				    	<div class="col-6">
+					    	<label for="fltype">FLIGHT TYPE</label>
+					    	<div class="fltype-options">
+						    	 <label>
+				                    <input type="checkbox" name="fltype" value="international">
+				                    <span>INTERNATIONAL</span>
+				                </label>
+				                <label class="domestic">
+				                    <input type="checkbox" name="fltype" value="domestic">
+				                    <span>DOMESTIC</span>
+				                </label>
+			                </div>
+					    </div>
+
+					    <div class="col-6">
+					    	<label for="modes">MODE</label>
+					    	<div class="mode-options">
+						    	 <label>
+				                    <input type="checkbox" name="modes" value="arrival">
+				                    <span>ARRIVAL</span>
+				                </label>
+				                <label class="departure">
+				                    <input type="checkbox" name="modes" value="departure">
+				                    <span>DEPARTURE</span>
+				                </label>
+			                </div>
+					    </div>
+
+					    <div class="submitBtn">
+							<button type="button" class="btn btn-primary">SUBMIT</button>
+						</div>
+
+		</div>
+			
+
+</div>

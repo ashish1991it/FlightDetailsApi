@@ -1,0 +1,16 @@
+{
+    "status" : 1,
+    "message" : "Application updated successfully",
+    "application" : {
+            "id" : 3,
+            "name" : "ADM Portal",
+            "internal_url" : "https://webapps.gmrgroup.int/ADM/",
+            "external_url" : "https://webapps.dialit.co.in/CSAT/",
+            "server_ip" : "10.248.16.73",
+            "image" : "/img/adm.jpg",
+            "ports": "443",
+            "status" : "ACTIVE",
+            "description" : "ADM Portal",
+            "remarks" : ""
+    }
+}

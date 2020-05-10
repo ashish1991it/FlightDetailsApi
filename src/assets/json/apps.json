@@ -1,0 +1,41 @@
+{
+    "status" : 1,
+    "applications" : [
+        {
+            "id" : 1,
+            "name" : "CSAT",
+            "internal_url" : "https://webapps.gmrgroup.int/CSAT/",
+            "external_url" : "https://webapps.dialit.co.in/CSAT/",
+            "server_ip" : "10.248.16.73",
+            "image" : "../assets/img/DIAL LOGO.png",
+            "ports": "443",
+            "status" : "ACTIVE",
+            "description" : "Customer Review/Feedback Portal",
+            "token" : "as1234klfgj490tgjk9"
+        },
+        {
+            "id" : 3,
+            "name" : "ADM",
+            "internal_url" : "https://webapps.gmrgroup.int/ADM/",
+            "external_url" : "https://webapps.dialit.co.in/CSAT/",
+            "server_ip" : "10.248.16.73",
+             "image" : "../assets/img/DIAL LOGO.png",
+            "ports": "443",
+            "status" : "ACTIVE",
+            "description" : "ADM Portal",
+            "token" : "as1234klfgj490tgjk9"
+        },
+        {
+            "id" : 5,
+            "name" : "ADM",
+            "internal_url" : "https://webapps.gmrgroup.int/ADM/",
+            "external_url" : "https://webapps.dialit.co.in/CSAT/",
+            "server_ip" : "10.248.16.73",
+             "image" : "../assets/img/DIAL LOGO.png",
+            "ports": "443",
+            "status" : "ACTIVE",
+            "description" : "ADM Portal",
+            "token" : "as1234klfgj490tgjk9"
+        }
+    ]
+}

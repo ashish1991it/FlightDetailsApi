@@ -1,0 +1,94 @@
+.row{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.total_consumer{
+    width: 300px;
+    /*height: 90px;*/
+    /*margin: auto;*/
+    background: #ED1C24;
+    border: 1px solid #ED1C24;
+    box-sizing: border-box;
+    padding: 2%;
+    color: #fff;
+    font-size: 16px;
+        margin: 10px;
+    /*word-break: break-word;*/
+}
+
+.total_api{
+    width: 300px;
+    /*height: 90px;*/
+    /*margin: auto;*/
+    background: #FAAB53;
+    border: 1px solid #FAAB53;
+    box-sizing: border-box;
+    padding: 2%;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    /*word-break: break-word;*/
+}
+
+.total_bad_api{
+    width: 300px;
+    /*height: 90px;*/ 
+    margin: auto;
+    background: #FAAB53;
+    border: 1px solid #FAAB53;
+    box-sizing: border-box;
+    padding: 2%;
+    color: #fff;
+    font-size: 16px;
+        margin: 10px;
+    /*word-break: break-word;*/
+}
+
+google-chart{
+    margin: auto;
+}
+
+.api-usage{
+        display: flex;
+    margin: 1% 9.5%;
+    color: #FFF;
+}
+
+.api_use_text{
+    width: 440px;
+}
+
+.api_use_type{
+    width: 500px;
+    display: flex;
+}
+
+
+.consumerwise-graph{
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+
+@media (max-width: 768px) {
+
+.row{
+    display: block;
+}
+.total_consumer{
+    width: auto;
+    margin: 10px;
+}
+.total_api{
+    width: auto;
+    margin: 10px;
+}
+.total_bad_api{
+    width: auto;
+    margin: 10px;
+}
+
+}

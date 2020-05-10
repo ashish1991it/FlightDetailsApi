@@ -1,0 +1,57 @@
+<div class="main">
+	<div class="dial"></div>
+	<div class="welcomeText">WELCOME <br> TO <br>DIAL APP STORE</div>
+
+	
+		<div class="user-bg">
+			<div class="user_card" *ngIf="!empLogin">
+				<div class="emp-header">
+					ADMIN
+				</div>
+				<div class="user-bg">
+					<div class="empImg" *ngIf="!empLogin && !consLogin"></div>
+					<form *ngIf="consLogin">
+						<div class="input-group mt-35">
+							<input type="text" name="pernr" [(ngModel)]="employee.pernr" class="form-control input_user h-45" value="" placeholder="PERNR">
+						</div>
+						<div class="input-group mt-20">
+							<input type="password" name="password" [(ngModel)]="employee.password"  class="form-control input_pass h-45" value="" placeholder="PASSWORD">
+						</div>
+						
+						<div class="user-bg mt-35">
+					 		<button type="button" name="button" class="btn emp_login_btn" (click)="login(employee)" [disabled]="!employee.pernr || !employee.password">LOGIN</button>
+					    </div>
+					</form>
+
+				</div>
+				<div class="user-bg" *ngIf="!empLogin && !consLogin">
+					<button type="button" name="button" class="btn emp_btn" (click)="getStarted('emp')">GET STARTED</button>
+				</div>
+			</div>
+
+			<div class="user_card" *ngIf="!consLogin">
+				<div class="conslt-header">
+					EMPLOYEE
+				</div>
+				<div class="user-bg">
+					<div class="consImg" *ngIf="!empLogin && !consLogin"></div>
+					<form *ngIf="empLogin">
+						<div class="input-group mt-35">
+							<input type="text" name="cnlt" [(ngModel)]="consultant.cnlt"  class="form-control input_user h-45" value="" placeholder="CNLT">
+						</div>
+						<div class="input-group mt-20">
+							<input type="password" name="password" [(ngModel)]="consultant.password"  class="form-control input_pass h-45" value="" placeholder="PASSWORD">
+						</div>
+						
+						<div class="user-bg mt-35">
+					 		<button type="button" name="button" class="btn cons_login_btn" (click)="login(consultant)" [disabled]="!consultant.cnlt || !consultant.password">LOGIN</button>
+					    </div>
+					</form>
+				</div>
+				<div class="user-bg" *ngIf="!empLogin && !consLogin">
+					<button type="button" name="button" class="btn cons_btn" (click)="getStarted('consult')">GET STARTED</button>
+				</div>
+			</div>
+		</div>
+		<div class="footer">Copyright © 2020, DIAL-IT. All rights reserved</div>
+	</div>

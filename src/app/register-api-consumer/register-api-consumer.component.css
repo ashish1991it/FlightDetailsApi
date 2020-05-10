@@ -1,0 +1,47 @@
+.card{
+	padding: 2em;
+}
+
+.row{
+	margin: 3em 6em 0 6em !important;
+}
+
+.col-6{
+	margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input, select{
+	height: 45px;
+    margin-left: 15px;
+    width: 500px;
+    min-width: 100px;
+}
+label{
+	color: #fff;
+    font-size: 16px;
+    width: 300px;
+    margin: 0;
+    min-width: 100px;
+}
+
+.submitBtn{
+	text-align: center;
+}
+
+.submitBtn button{
+	margin-top: 3em;
+    background: #132546;
+    border-color: #132546;
+    width: 100px;
+}
+
+  @media (max-width: 768px) {
+     .row{
+     	margin:auto !important;
+     }
+    }
+

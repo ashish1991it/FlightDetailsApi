@@ -1,0 +1,128 @@
+.card{
+	padding: 2em;
+}
+
+.row{
+	margin: 1em 2em;
+}
+
+.col-6{
+	margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input, select{
+	height: 45px;
+	margin-left: 15px;
+	width: 500px;
+	min-width: 100px;
+}
+label{
+	/*margin-bottom: 10px;*/
+	color: #fff;
+	font-size: 16px;
+	width: 300px;
+	margin: 0;
+	min-width: 100px;
+}
+
+.mode, .fltype{
+	display: flex;
+}
+
+.mode div,.fltype div{
+	margin: -3px auto;
+}
+
+input[type="checkbox"]{
+	height: 16px !important;
+	margin-left: 0;
+	width: auto;
+    min-width: auto;
+}
+
+.mode-options{
+	height: 45px;
+    margin-left: 15px;
+    width: 500px;
+    min-width: 100px;
+}
+
+.mode-options label{
+	/*margin-left: 9px;*/
+	width: 45%;
+	display: flex;
+}
+
+.fltype-options{
+	height: 45px;
+    margin-left: 15px;
+    width: 500px;
+    min-width: 100px;
+}
+
+.fltype-options label{
+	/*margin-left: 9px;*/
+	width: 45%;
+	display: flex;
+}
+
+
+
+span{
+	margin-left: 10px;
+}
+
+.submitBtn{
+	text-align: center;
+}
+
+.submitBtn button{
+    background: #132546;
+    border-color: #132546;
+    width: 100px;
+}
+
+
+.format{
+    height: 45px;
+    /*background: #286090;*/
+    /*border-radius: 25px;*/
+    width: 500px;
+    min-width: 100px;
+    /*border: 1px solid #286090;*/
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.json{
+	width: 34%;
+    height: 45px;
+    /*border-radius: 25px;*/
+    border: none;
+    color: #fff;
+    background: #286090;
+    border-radius: 3px 0 0 3px;
+}
+
+.xml{
+	width: 33%;
+    height: 100%;
+    /*border-radius: 25px;*/
+    border: none;
+    color: #286090;
+    background: #fff;
+}
+
+.csv{
+	width: 33%;
+    height: 100%;
+    /*border-radius: 25px;*/
+    border: none;
+    color: #286090;
+    background: #fff;
+    border-radius: 0 3px 3px 0;
+}
